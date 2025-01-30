@@ -1,0 +1,74 @@
+<html>
+<body>
+<h1>HTML Elements</h1>
+<p>This is a styled paragraph.</p>
+<button>Click Me</button>
+<ul>
+<li>List Item 1</li>
+<li>List Item 2</li>
+</ul>
+<input type="text" placeholder="Enter text">
+<a href="#">This is a styled link</a>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        background-color: #f4f4f4;
+      }
+      
+      p {
+        font-size: 18px;
+        color: #555;
+      }
+      
+      button {
+        padding: 10px 20px;
+        background-color: blueviolet;
+        color: white;
+        border: none;
+        cursor: pointer;
+        font-size: 16px;
+        border-radius: 5px;
+      }
+      
+      button:hover {
+        background-color: #0056b3;
+      }
+      
+      input[type="text"] {
+        padding: 8px;
+        width: 200px;
+        margin: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+      
+      ul {
+        list-style-type: none;
+        padding: 0;
+      }
+      
+      li {
+        background: white;
+        padding: 10px;
+        margin: 5px auto;
+        width: 200px;
+        border-radius: 5px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+      }
+      
+      a {
+        display: inline-block;
+        margin-top: 15px;
+        text-decoration: none;
+        color: green;
+        font-size: 18px;
+      }
+      
+      a:hover {
+        text-decoration: underline;
+      }
+
+</style>
+</body>
+</html>
